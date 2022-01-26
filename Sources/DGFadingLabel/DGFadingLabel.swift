@@ -12,7 +12,9 @@ open class DGFadingLabel: UILabel {
     
     open override var numberOfLines: Int {
         didSet {
-            numberOfLines = 1
+            if numberOfLines != 1 {
+                numberOfLines = 1
+            }
         }
     }
     
