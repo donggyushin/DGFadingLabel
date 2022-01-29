@@ -19,7 +19,7 @@ File > Add Packages > https://github.com/donggyushin/DGFadingLabel
 
 ### CocoaPod
 ```
-pod 'DGFadingLabel', :git => 'https://github.com/donggyushin/DGFadingLabel'
+pod 'DGFadingLabel', :git => 'https://github.com/donggyushin/DGFadingLabel.git'
 ```
 
 ## Usage
